@@ -1,5 +1,6 @@
-# html-css
- Estudos DE HTML5 e CSS3 com o auxilio de vídeo aula.
+# Site responsivo usando HTML5 e CSS3
+
+Estudos de HTML5 e CSS3 com o auxilio de vídeo aula do canal Curso em Vídeo.
 
 
 Acesse o site no celular ou no computador 
