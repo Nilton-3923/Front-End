@@ -1,8 +1,12 @@
 # Site responsivo usando HTML5 e CSS3
 
-Estudos de HTML5 e CSS3 com o auxilio de vídeo aula do canal Curso em Vídeo.
+Estudos de HTML5, CSS3 e JS.
 
 
-Acesse o site no celular ou no computador 
+Acesse os site no celular ou no computador 
 
-https://nilton-3923.github.io/html-css/estudo-site-respansivo/
+1.1 estudo-site-respansivo
+https://nilton-3923.github.io/html-css/estudo-site-respansivo/index.html
+
+2.1 estudo-site-cordel
+https://nilton-3923.github.io/html-css/estudo-site-cordel/index.html
