@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(211, 209, 209);
+}
+
+/*Cabeçalho*/
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;     
+}
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    color: rgb(238, 238, 238);
+    text-decoration: underline;
+}
+
+/*Dando estilo para as sections*/
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.fundo-branco{
+    background-color: white;
+}
+section.fundo-img{
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+.fundo-img p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+.fundo-branco p {
+    padding-left: 20px;
+}
+
+
+
+
+
+/*Rodapé*/
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 4px;
+}
