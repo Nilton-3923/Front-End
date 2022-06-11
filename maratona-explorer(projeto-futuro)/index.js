@@ -1,6 +1,6 @@
-const respostaElement  = document.querySelector("#resposta")
+const respostaElement  = document.querySelector('.resposta')
 const inputPergunta = document.querySelector("#inputPergunta")
-
+const buttonPerguntar = document.querySelector("#button")
 const respostas = [
   "Certeza!",
   "Não tenho tanta certeza.",
@@ -25,13 +25,22 @@ const respostas = [
 
 
 // Fazendo pergunta 
-function fazerPerguta(){
+function fazerPergunta(){
   respostaElement.style.opacity = 1;
   if (inputPergunta.value == ""){
     respostaElement.innerHTML = "É necessário digitar uma pergunta válida!"
     respostaElement.classList.add('aviso')
+    
+    setTimeout(function() {
+      respostaElement.style.opacity = 0;
+    }, 3000)
+
     return
   }
+
+  //Desabilitando o botão
+  buttonPerguntar.setAttribute("disabled", true)
+
   //Mundando a cor da frase
   respostaElement.classList.remove('aviso')
 
@@ -48,10 +57,11 @@ function fazerPerguta(){
   //Sumindo a resposta depois de 3.s
 
   setTimeout(function() {
-    respostaElement.style.opacity = 0;
+    respostaElement.style.opacity = 0
+    buttonPerguntar.removeAttribute("disabled")
   }, 3000)
-  
 
+  
     
 }
 
