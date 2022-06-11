@@ -26,6 +26,6 @@
 .listagem .pokemon span{
     padding-right: 20px;
 }
-.listagem .pokemon.ativo{
+.listagem .ativo{
     background-color: #FA6668;
 }

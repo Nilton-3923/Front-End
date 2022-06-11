@@ -26,18 +26,18 @@
 
                 <!--Criando cada cartão de acordo com seu pokémon-->
                 <!--Pikachu-->
-                <div class="cartao-pokemon aberto tipo-eletrico" id="Pikachu">
+                <div class="cartao-pokemon tipo-eletrico aberto" id="Pikachu">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
                             <h2 class="nome">Pikachu</h2>
-                            <span>#001</span>
+                            <span>#025</span>
                         </div>
                         <!--Tipo do pokémon na pokedex-->
                         <span class="tipo">Elétrico</span>
                         <!--Inserindo a imagem do pokémon-->
                         <div class="cartao-imagem">
-                            <img src="src/imagens/pokemons/pikachu.png" alt="Imagem Pikachu">
+                            <img src="src/imagens/sprite/pikachu-animacao.gif" alt="Imagem Pikachu">
                         </div>
                     </div>
                     <!--Divi da parte inferior da pokedex-->
@@ -74,10 +74,11 @@
                             <span>#001</span>
                         </div>
                         <!--Tipo do pokémon na pokedex-->
-                        <span class="tipo">Elétrico</span>
+                        <span class="tipo">Grama</span>
+                        <span class="tipo">Veneno</span>
                         <!--Inserindo a imagem do pokémon-->
                         <div class="cartao-imagem">
-                            <img src="src/imagens/pokemons/bulbasaur.png" alt="Imagem Pikachu">
+                            <img src="src/imagens/sprite/bulbassaur-animacao.gif" alt="Imagem Pikachu">
                         </div>
                     </div>
                     <!--Divi da parte inferior da pokedex-->
@@ -111,13 +112,13 @@
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
                             <h2 class="nome">Charmander</h2>
-                            <span>#001</span>
+                            <span>#004</span>
                         </div>
                         <!--Tipo do pokémon na pokedex-->
-                        <span class="tipo">Elétrico</span>
+                        <span class="tipo">Fogo</span>
                         <!--Inserindo a imagem do pokémon-->
                         <div class="cartao-imagem">
-                            <img src="src/imagens/pokemons/charmander.png" alt="Imagem Pikachu">
+                            <img src="src/imagens/sprite/charmander-animacao.gif" alt="Imagem Pikachu">
                         </div>
                     </div>
                     <!--Divi da parte inferior da pokedex-->
@@ -150,14 +151,14 @@
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
-                            <h2 class="nome">Gyarados</h2>
-                            <span>#001</span>
+                            <h2 class="nome">Squirtle</h2>
+                            <span>#007</span>
                         </div>
                         <!--Tipo do pokémon na pokedex-->
-                        <span class="tipo">Elétrico</span>
+                        <span class="tipo">Água</span>
                         <!--Inserindo a imagem do pokémon-->
                         <div class="cartao-imagem">
-                            <img src="src/imagens/pokemons/gyarados.png" alt="Imagem Pikachu">
+                            <img src="src/imagens/sprite/squirtle-animacao.gif" alt="Imagem Pikachu">
                         </div>
                     </div>
                     <!--Divi da parte inferior da pokedex-->
@@ -191,13 +192,15 @@
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
                             <h2 class="nome">Gengar</h2>
-                            <span>#001</span>
+                            <span>#094</span>
                         </div>
                         <!--Tipo do pokémon na pokedex-->
-                        <span class="tipo">Elétrico</span>
+                        <span class="tipo">Fantasma</span>
+                        <span class="tipo">Veneno</span>
+
                         <!--Inserindo a imagem do pokémon-->
                         <div class="cartao-imagem">
-                            <img src="src/imagens/pokemons/gengar.png" alt="Imagem Pikachu">
+                            <img src="src/imagens/sprite/gengar-animacao.gif" alt="Imagem Pikachu">
                         </div>
                     </div>
                     <!--Divi da parte inferior da pokedex-->
@@ -231,15 +234,17 @@
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
                             <h2 class="nome">Dragonite</h2>
-                            <span>#001</span>
+                            <span>#149</span>
                         </div>
                         <!--Tipo do pokémon na pokedex-->
-                        <span class="tipo">Elétrico</span>
+                        <span class="tipo">Dragão</span>
+                        <span class="tipo">Voador</span>
                         <!--Inserindo a imagem do pokémon-->
                         <div class="cartao-imagem">
-                            <img src="src/imagens/pokemons/dragonite.png" alt="Imagem Pikachu">
+                            <img src="src/imagens/sprite/dragonite-animacao.gif" alt="Imagem Pikachu">
                         </div>
                     </div>
+                    
                     <!--Divi da parte inferior da pokedex-->
                     <div class="cartao-informacoes">
                         <!--Informações de status do Pokémon-->
@@ -270,38 +275,38 @@
             <nav class="listagem">
                 <ul>
                     <!--Pikachu-->
-                    <li class="pokemon ativo" id="" onClick="escolha(1)">
-                        <img src="src/imagens/pokemons/cabeca-pikachu.png" alt="Pikachu-Navegação">
+                    <li class="pokemon ativo" id="pikachuListagem" onClick="escolha(1)">
+                        <img src="src/imagens/sprite/sprite-pikachu.png" alt="Pikachu-Navegação">
                         <span>Pikachu</span>
                     </li>
 
                     <!--Bulbasaur-->
-                    <li class="pokemon" id="" onClick="escolha(2)">
-                        <img src="src/imagens/pokemons/cabeca-bulbasaur.png" alt="Bulbassaur-navegação">
+                    <li class="pokemon" id="bulbassaurListagem" onClick="escolha(2)">
+                        <img src="src/imagens/sprite/sprite-bulbassaur.png" alt="Bulbassaur-navegação">
                         <span>Bulbassaur</span>
                     </li>
 
                     <!--Charmander-->
-                    <li class="pokemon" id="" onClick="escolha(3)">
-                        <img src="src/imagens/pokemons/cabeca-charmander.png" alt="Charmander-navegação">
+                    <li class="pokemon" id="charmanderListagem" onClick="escolha(3)">
+                        <img src="src/imagens/sprite/sprite-charmander.png" alt="Charmander-navegação">
                         <span>Charmander</span>
                     </li>
 
                     <!--Gyrados-->
-                    <li class="pokemon" id="" onClick="escolha(4)"> 
-                        <img src="src/imagens/pokemons/cabeca-gyarados.png" alt="Gyarados-navegação">
-                        <span>Gyrados</span>
+                    <li class="pokemon" id="gyradosListagem" onClick="escolha(4)"> 
+                        <img src="src/imagens/sprite/sprite-squirtle.png" alt="Squirtle-navegação">
+                        <span>Squirtle</span>
                     </li>
 
                     <!--Gengar-->
-                    <li class="pokemon" id="" onClick="escolha(5)">
-                        <img src="src/imagens/pokemons/cabeca-gengar.png" alt="Gengar-navegação">
+                    <li class="pokemon" id="gengarListagem" onClick="escolha(5)">
+                        <img src="src/imagens/sprite/sprite-gengar.png" alt="Gengar-navegação">
                         <span>Gengar</span>
                     </li>
 
                     <!--Dragonite-->
-                    <li class="pokemon" id="" onClick="escolha(6)">
-                        <img src="src/imagens/pokemons/cabeca-dragonite.png" alt="Dragonite-navegação">
+                    <li class="pokemon" id="dragoniteListagem" onClick="escolha(6)">
+                        <img src="src/imagens/sprite/sprite-dragonite.png" alt="Dragonite-navegação">
                         <span>Dragonite</span>
                     </li>
                 </ul>
