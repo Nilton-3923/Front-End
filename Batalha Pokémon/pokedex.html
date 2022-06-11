@@ -26,7 +26,7 @@
 
                 <!--Criando cada cartão de acordo com seu pokémon-->
                 <!--Pikachu-->
-                <div class="cartao-pokemon aberto tipo-eletrico">
+                <div class="cartao-pokemon aberto tipo-eletrico" id="Pikachu">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
@@ -66,7 +66,7 @@
                 </div>
 
                 <!--Bulbassauro-->
-                <div class="cartao-pokemon tipo-grama">
+                <div class="cartao-pokemon tipo-grama" id="Bulbassauro">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
@@ -106,7 +106,7 @@
                 </div>
 
                 <!--Charmander-->
-                <div class="cartao-pokemon tipo-fogo">
+                <div class="cartao-pokemon tipo-fogo" id="Charmander">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
@@ -146,7 +146,7 @@
                 </div>
 
                 <!--Gyarados-->
-                <div class="cartao-pokemon tipo-agua">
+                <div class="cartao-pokemon tipo-agua" id="Gyarados">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
@@ -186,7 +186,7 @@
                 </div>
 
                 <!--Gengar-->
-                <div class="cartao-pokemon tipo-trevas">
+                <div class="cartao-pokemon tipo-trevas" id="Gengar">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
@@ -226,7 +226,7 @@
                 </div>
 
                 <!--Dragonite-->
-                <div class="cartao-pokemon tipo-dragao">
+                <div class="cartao-pokemon tipo-dragao" id="Dragonite">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <!--Criando os detalhes da pokedex-->
@@ -270,37 +270,37 @@
             <nav class="listagem">
                 <ul>
                     <!--Pikachu-->
-                    <li class="pokemon ativo">
+                    <li class="pokemon ativo" id="" onClick="escolha(1)">
                         <img src="src/imagens/pokemons/cabeca-pikachu.png" alt="Pikachu-Navegação">
                         <span>Pikachu</span>
                     </li>
 
                     <!--Bulbasaur-->
-                    <li class="pokemon">
+                    <li class="pokemon" id="" onClick="escolha(2)">
                         <img src="src/imagens/pokemons/cabeca-bulbasaur.png" alt="Bulbassaur-navegação">
                         <span>Bulbassaur</span>
                     </li>
 
                     <!--Charmander-->
-                    <li class="pokemon">
+                    <li class="pokemon" id="" onClick="escolha(3)">
                         <img src="src/imagens/pokemons/cabeca-charmander.png" alt="Charmander-navegação">
                         <span>Charmander</span>
                     </li>
 
                     <!--Gyrados-->
-                    <li class="pokemon"> 
+                    <li class="pokemon" id="" onClick="escolha(4)"> 
                         <img src="src/imagens/pokemons/cabeca-gyarados.png" alt="Gyarados-navegação">
                         <span>Gyrados</span>
                     </li>
 
                     <!--Gengar-->
-                    <li class="pokemon">
+                    <li class="pokemon" id="" onClick="escolha(5)">
                         <img src="src/imagens/pokemons/cabeca-gengar.png" alt="Gengar-navegação">
                         <span>Gengar</span>
                     </li>
 
                     <!--Dragonite-->
-                    <li class="pokemon">
+                    <li class="pokemon" id="" onClick="escolha(6)">
                         <img src="src/imagens/pokemons/cabeca-dragonite.png" alt="Dragonite-navegação">
                         <span>Dragonite</span>
                     </li>
@@ -310,6 +310,7 @@
         </div>
     </main>
 
+    <script src="escolherPokemon.js"></script>
 </body>
 
 </html>
